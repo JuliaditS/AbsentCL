@@ -24,8 +24,8 @@ async def my_event_handler(event):
         while loop:
             time = datetime.now().strftime("%H %M %S")
             sleep(1)
-            if time == '21 46 00':
-                await client.send_message(-686884071,file=InputMediaPoll(
+            if time == '09 00 00':
+                await client.send_message(-1001381374413,file=InputMediaPoll(
                     poll=Poll(
                         id=45,
                         question=Description,
